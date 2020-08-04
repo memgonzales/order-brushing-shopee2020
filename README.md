@@ -45,4 +45,6 @@ The **2020 Shopee Code League**, an initiative of the Singapore-based e-commerce
 More information on the said event can be viewed on its official page: https://careers.shopee.sg/codeleague/
 
 ## Author
-- **Mark Edward M. Gonzales** 
+- **Mark Edward M. Gonzales** <br/>
+  mark_gonzales@dlsu.edu.ph <br/>
+  gonzales.markedward@gmail.com
