@@ -8,10 +8,10 @@ This order brushing detection activity &mdash; which highlights the importance o
 
 ### Dataset
 The dataset, stored in a comma-separated values (CSV) file, consists of four columns:
-- Order ID: A unique ID is assigned to every transaction
-- Shop ID: A unique ID is assigned to every seller
-- User ID: A unique ID is assigned to every buyer
-- Date and time of order: The timestamp of every transaction recorded
+- `orderid` - Unique ID assigned to every transaction
+- `shopid` - Unique ID assigned to every seller
+- `userid` - Unique ID assigned to every buyer
+- `event_time` - Timestamp of every recorded transaction
 
 Note that the dataset is under the intellectual property of the contest organizers. Therefore, it is not published in this repository. For the same reason, the output of each cell in the Jupyter Notebook is also stripped. 
 
@@ -22,8 +22,8 @@ In addition, for every shop found to have conducted order brushing, the shop IDs
 
 ### Submission Format
 The results of the data analysis have to be stored in a CSV file consisting of two columns:
-- Shop ID
-- User ID(s) of suspicious buyer(s)
+- `shopid` - ID of shop suspected of order brushing
+- `userid` - ID of suspicious buyer
 
 If a shop is not found to have conducted order brushing, the entry in the second column is set to 0. For shops with more than one suspicious buyer, the user IDs are listed in ascending order and separated using an ampersand (without any space before and after it).
 
