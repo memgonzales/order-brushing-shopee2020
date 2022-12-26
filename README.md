@@ -1,4 +1,10 @@
 # Order Brushing Detection
+
+![badge][badge-jupyter]
+![badge-python](https://img.shields.io/badge/python-3670A0?style=flat&logo=python&logoColor=white)
+![badge][badge-pandas]
+![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=flat&logo=numpy&logoColor=white)
+
 **Order brushing** is a fraudulent practice in which shops create an artificial increase in their number of sales in an attempt to bolster their reputation and increase their ratings on e-commerce websites. 
 
 The goal of this coding challenge is to create a baseline rule-based program for detecting potential order brushing. 
@@ -51,3 +57,8 @@ More information can be found on its official page: https://careers.shopee.sg/co
 - **Mark Edward M. Gonzales** <br/>
   mark_gonzales@dlsu.edu.ph <br/>
   gonzales.markedward@gmail.com
+  
+[badge-jupyter]: https://img.shields.io/badge/Jupyter-F37626.svg?&style=flat&logo=Jupyter&logoColor=white
+[badge-pandas]: https://img.shields.io/badge/Pandas-2C2D72?style=flat&logo=pandas&logoColor=white
+[badge-numpy]: https://img.shields.io/badge/Numpy-777BB4?style=flat&logo=numpy&logoColor=white
+[badge-scipy]: https://img.shields.io/badge/SciPy-654FF0?style=flat&logo=SciPy&logoColor=white
