@@ -19,7 +19,7 @@ The dataset, stored in a comma-separated values (CSV) file, consists of four col
 - `userid` - Unique ID assigned to every buyer
 - `event_time` - Timestamp of every recorded transaction
 
-Note that the dataset is under the intellectual property of the contest organizers. Therefore, it is not published in this repository. For the same reason, the output of each cell in the Jupyter Notebook is also stripped. 
+Note that the dataset is under the intellectual property of the contest organizers. Therefore, it is not published in this repository. For the same reason, the output of each cell in the Jupyter notebook is also stripped. 
 
 ### Order Brushing
 Order brushing is checked for every possible one-hour window. A shop is said to have conducted order brushing if its *concentration rate* (ratio of the number of transactions to the number of unique buyers) for a particular one-hour window is at least 3.0.
@@ -36,7 +36,7 @@ If a shop is not found to have conducted order brushing, the entry in the second
 Since the dataset is an intellectual property of the contest organizers, the CSV file containing the results is also not published in this repository. 
 
 ## Built Using
-In creating the Jupyter notebook for this coding challenge, the following Python modules and libraries were used:
+In creating the [Jupyter notebook](https://github.com/memgonzales/order-brushing-shopee2020/blob/master/order-brushing.ipynb) for this coding challenge, the following Python modules and libraries were used:
 
 Libraries/Modules | Description | License
 --- | ---| ---
